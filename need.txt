@@ -1,0 +1,4 @@
+##
+npm init -y -----yeslae packages json file banauxa
+
+ npm i express nodemon mongoose multer dotenv.   ---packages haru
