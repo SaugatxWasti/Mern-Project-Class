@@ -18,7 +18,9 @@ mongoose.connect("mongodb://localhost:27017/mern-project", {
 
 const app = express();
 dotenv.config();
-app.use(express.json());
+// app.use(express.json());
+app.use(express.static('public'))
+app.use('/api', express.json());
 
 app.use('/',webRoute);
 
